@@ -1,0 +1,5 @@
+$ git branch -v
+* main              c428214 Merge bug-fix-typo into main
+  bug-fix-typo      7e4a5b9 Fix typo in documentation
+  development       3f8d2c1 Add feature X
+  feature/new-calc  a1b2c3d Implement new calculation method
