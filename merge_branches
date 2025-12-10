@@ -1,0 +1,16 @@
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+$ git merge bug-fix-typo
+Updating 3f8d2c1..7e4a5b9
+Fast-forward
+ typographical_error.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Merge completed successfully!
+
+$ git log --oneline
+7e4a5b9 (HEAD -> main, origin/main) Fix typo in documentation
+3f8d2c1 (origin/development) Add feature X
+5c3d9e1 Initial commit
